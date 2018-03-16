@@ -1,0 +1,68 @@
+{
+    "type": "ckan",
+    "base_url": "https://www.data.brisbane.qld.gov.au/data",
+    "datasets": {
+        "public-drinking-fountain-taps": {
+            "resource": "57a4a014-4196-45d0-8bae-284e40cc2720",
+            "conform": {
+                "lat": "Latitude",
+                "lon": "Longitude"
+            }
+        },
+        "brisbane-boat-ramps": {
+            "resource": "a4014da6-dc85-4c80-98d5-27285361ac77"
+        },
+        "public-art": {
+            "resource": "3c972b8e-9340-4b6d-8c7b-2ed988aa3343"
+        },
+        "ferry-terminals": {
+            "resource": "bdffec72-f4b5-4107-b7e3-751652af28f2"
+        },
+        "brisbane-bus-stops": {
+            "resource": "0c4fda19-f96a-4174-a821-be6dad2e45cf"
+        },
+        "bicycle-racks": {
+            "resource": "4a67a16d-ffc7-4831-a77b-64d8ac42459e"
+        },
+        "ward-office-details-and-locations": {
+            "resource": "28b43b1d-b154-4f32-af17-10549ed56a05"
+        },
+        "wireless-hotspot-sites-libraries-and-parks": {
+            "resource": "9851b9fd-8a46-4268-9ece-4e45b143e8c9"
+        },
+        "park-facilities-and-assets": {
+            "resource": "66b3c6ce-4731-4b19-bddd-8736e3111f7e"
+        },
+        "disability-permit-parking-locations": {
+            "resource": "5d4d4574-123d-4524-bc59-f7c976c4815c"
+        },
+        "commercial-vehicle-loading-zones": {
+            "resource": "34a40086-744c-40f6-905c-5a990ed582f8"
+        },
+        "two-minute-passenger-loading-zones": {
+            "resource": "813a275d-cd5e-420a-a3dc-b1e93ee06abb"
+        },
+        "swimming-pools": {
+            "resource": "c09546c8-9526-4358-a1eb-81dbb224cdca"
+        },
+        "cemeteries": {
+            "resource": "2cdfa6b6-eb89-414d-8f1d-0e43f59d2993"
+        },
+        "golf-courses": {
+            "resource": "3f30fb03-8690-495f-af23-32431921199e",
+            "conform": {
+                "addr": "Address",
+                "contact:phone": {
+                    "field": "Phone No",
+                    "transform": "phone"
+                }
+            }
+        },
+        "road-restrictions": {
+            "resource": "6b01de54-d739-4116-8e33-e58efc2b78e3"
+        },
+        "brisbane-city-council-events-locations": {
+            "resource": "08107e61-5960-4b3c-a9c9-468d6d295020"
+        }
+    }
+}
