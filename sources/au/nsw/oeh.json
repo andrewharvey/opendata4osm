@@ -1,0 +1,53 @@
+{
+    "type": "ckan",
+    "base_url": "http://data.environment.nsw.gov.au",
+    "datasets": {
+        "offices-of-the-planning-and-environment-cluster": {
+            "resource": "40a76374-d92a-417b-977d-4c8420204fe4",
+            "tags": {
+                "office": "government",
+                "name": "Office of Environment & Heritage"
+            }
+        },
+        "asset-infrastructure-lookout": {
+            "resource": "33d0b44b-9d16-4f99-ae6c-45ef0d3c2252",
+            "tags": {
+                "tourism": "viewpoint",
+                "name": {
+                    "attribute": "AssetName"
+                }
+            }
+        },
+        "asset-infrastructure-building": {
+            "resource": "b1c9b4cb-efed-46c2-b4c9-49fe2d5b833c"
+        },
+        "asset-infrastructure-visitor-area": {
+            "resource": "b7aa8541-9cda-469c-bf74-550ad4cb9a6c",
+            "tags": {
+                "tourism": {
+                    "function": "lookup",
+                    "attribute": "d_SubtypeC",
+                    "map": {
+                        "Camping Area": "",
+                        "Cemetery": ""
+                    }
+                }
+            }
+        },
+        "asset-infrastructure-track-section8bfcf": {
+            "resource": "8a7950f0-f8be-489e-bc20-4ba75353a683"
+        },
+        "asset-infrastructure-road-section": {
+            "resource": "68028586-8161-49dc-b592-e5175af6bb56"
+        },
+        "asset-infrastructure-facility-point": {
+            "resource": "7aa84585-9829-4897-bbeb-c5f7c7037d47"
+        },
+        "asset-infrastructure-gate": {
+            "resource": "83168258-2be1-41b7-8e2d-3cc277f41558",
+            "tags": {
+                "barrier": "gate"
+            }
+        }
+    }
+}

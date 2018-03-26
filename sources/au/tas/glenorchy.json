@@ -1,0 +1,12 @@
+{
+    "type": "ckan",
+    "base_url": "https://www.data.gov.au/",
+    "datasets": {
+        "glenorchy-city-council-artworks": {
+            "resource": "40e92c8e-17cc-46d4-ac20-ae837b38902a"
+        },
+        "glenorchy-city-council-bbqs": {
+            "resource": "301896ff-a6ed-4af4-be54-4c36a2a54c92"
+        }
+    }
+}

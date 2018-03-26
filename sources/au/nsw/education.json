@@ -1,0 +1,30 @@
+{
+    "type": "ckan",
+    "base_url": "https://data.cese.nsw.gov.au/",
+    "datasets": {
+        "nsw-non-government-school-locations-and-descriptions": {
+            "resource": "a5871783-7dd8-4b25-be9e-7d8b9b85422f",
+            "tags": {
+                "amenity": "school",
+                "name": {
+                    "attribute": "school_name"
+                },
+                "addr:suburb": {
+                    "attribute": "town_suburb"
+                },
+                "addr:postcode": {
+                    "attribute": "postcode"
+                },
+                "website": {
+                    "attribute": "school_url"
+                }
+            }
+        },
+        "nsw-university-campus-locations": {
+            "resource": "e3d5c817-38d7-42ee-b81a-40c58f738343"
+        },
+        "nsw-public-schools-master-dataset": {
+            "resource": "2ac19870-44f6-443d-a0c3-4c867f04c305"
+        }
+    }
+}

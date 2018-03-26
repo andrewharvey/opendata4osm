@@ -1,0 +1,112 @@
+{
+    "type": "arcgis-opendata",
+    "base_url": "http://actmapi-actgov.opendata.arcgis.com",
+    "datasets": {
+        "Public Furniture": {
+            "resource": "ed8065e191e642e4bc3e08917aa0b7e3_2",
+            "tags": {
+                "amenity": {
+                    "function": "lookup",
+                    "attribute": "FEATURE_TYPE",
+                    "map": {
+                        "SEAT": "bench"
+                    }
+                },
+                "leisure": {
+                    "function": "lookup",
+                    "attribute": "FEATURE_TYPE",
+                    "map": {
+                        "TABLE": "picnic_table"
+                    }
+                }
+            }
+        },
+        "Basketball Courts": {
+            "resource": "45b6adba2b5b4ecca563b32cc5e9c529_4",
+            "tags": {
+                "leisure": "pitch",
+                "sport": "basketball"
+            }
+        },
+        "Playgrounds": {
+            "resource": "4bc2ae2b59eb40d99130f5b5b0505abf_7",
+            "tags": {
+                "leisure": "playground"
+            }
+        },
+        "BBQs": {
+            "resource": "cce3d3c3ed9d4a5d894c26a3cf7f8757_0",
+            "tags": {
+                "amenity": "bbq",
+                "fuel": {
+                    "function": "lower_case",
+                    "attribute": "BBQ_TYPE_CODE"
+                }
+            }
+        },
+        "Dogparks": {
+            "resource": "e7a2b5792f1248dca4c41fc6422aa83f_5",
+            "tags": {
+                "leisure": "dogpark"
+            }
+        },
+        "Beaches": {
+            "resource": "bdf5687d9ece44f68ce021d8eb0b38fb_1",
+            "tags": {
+                "natural": "beach",
+                "name": {
+                    "function": "title_case",
+                    "attribute": "NAME"
+                }
+            }
+        },
+        "Playareas": {
+            "resource": "6baffe02451d47baa1c13626b21f43a8_6",
+            "tags": {
+                "leisure": "playground",
+                "surface": {
+                    "function": "lookup",
+                    "attribute": "SURFACE_TYPE",
+                    "map": {
+                        "TANBARK": "woodchips",
+                        "MULCH": "woodchips",
+                        "CONCRETE": "concrete",
+                        "RUBBER": "rubber"
+                }
+            }
+        },
+        "Reserves": {
+            "resource": "df2194f3f13f4521a96c15a0faba04ee_11"
+        },
+        "Names": {
+            "resource": "eed9b03deda94a579aac6853939beffe_8"
+        },
+        "Skate Parks": {
+            "resource": "7581ae6b760f40e998e305baa2701d4f_8",
+            "tags": {
+                "leisure": "pitch",
+                "sport": "skateboard",
+                "name": {
+                    "function": "title_case",
+                    "attribute": "NAME"
+                }
+            }
+        },
+        "Water Features": {
+            "resource": "5bed4bcb2fb84b3a9f1808b087243f31_1"
+        },
+        "Toilets": {
+            "resource": "2fc7328781d7462b843feca7dbed1c0b_3",
+            "tags": {
+                "amenity": "toilet",
+                "wheelchair": {
+                    "function": "bool",
+                    "attribute": "DISABLED_ACCESS"
+                }
+            }
+        },
+        "Wetlands": {
+            "resource": "2e4258c78fbc4d9881d85bd4224e8b05_5"
+        }
+    }
+}
