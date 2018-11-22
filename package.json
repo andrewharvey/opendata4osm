@@ -1,13 +1,17 @@
 {
   "name": "opendata4osm",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
+    "@turf/helpers": "^6.1.0",
+    "@turf/meta": "^6.0.1",
     "ckan": "^0.2.3",
     "csv2geojson": "^5.0.2",
+    "geojsontoosm": "^0.0.2",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
+    "ogr2ogr": "^1.2.1",
     "request": "^2.85.0"
   }
 }

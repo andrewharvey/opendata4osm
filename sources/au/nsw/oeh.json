@@ -2,6 +2,13 @@
     "type": "ckan",
     "base_url": "http://data.environment.nsw.gov.au",
     "datasets": {
+        "nsw-national-parks-and-wildlife-service-npws-estate3f9e7": {
+            "resource": "a540176a-9fa9-4bed-8b00-4366e506c8e9",
+            "tags": {
+                "office": "government",
+                "name": "Office of Environment & Heritage"
+            }
+        },
         "offices-of-the-planning-and-environment-cluster": {
             "resource": "40a76374-d92a-417b-977d-4c8420204fe4",
             "tags": {
@@ -19,7 +26,58 @@
             }
         },
         "asset-infrastructure-building": {
-            "resource": "b1c9b4cb-efed-46c2-b4c9-49fe2d5b833c"
+            "resource": "b1c9b4cb-efed-46c2-b4c9-49fe2d5b833c",
+            "tags": [
+                {
+                    "function": "lookup",
+                    "attribute": "d_assetTyp",
+                    "map": {
+                        "Toilet": [
+                            ["amenity", "toilet"]
+                            ["building", "toilet"]
+                        ],
+                        "Visitor Center": [
+                            ["tourism", "information"],
+                            ["information", "office"],
+                            ["building", "commercial"]
+                        ],
+                        "Hangar": [
+                            ["building", "hangar"]
+                        ],
+                        "Generator": [
+                            ["building", "service"]
+                        ],
+                        "Historic Only": [
+                            ["building", "shed"]
+                        ],
+                        "Garage": [
+                            ["building", "shed"]
+                        ]
+
+                    }
+                },
+                {
+                    "function": "lookup",
+                    "attribute": "d_AssetMat",
+                    "key": "building:material",
+                    "value": {
+                        "Asbestos": "asbestos",
+                        "Corrugated Iron": "corrugated_iron",
+                        "Fibre Cement": "fibre_cement",
+                        "Render": "concrete",
+                        "Timber": "wood"
+                    }
+                },
+                {
+                    "function": "lookup",
+                    "attribute": "d_Owner",
+                    "key": "operator",
+                    "value": {
+                        "Parks and Wildlife": "NSW Parks and Wildlife Service"
+                    }
+                }
+
+            ]
         },
         "asset-infrastructure-visitor-area": {
             "resource": "b7aa8541-9cda-469c-bf74-550ad4cb9a6c",
